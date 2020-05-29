@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#playBox{
+    height: 195px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-left: 400px;
+    margin-top: 200px;
+    border-color: black;
+    border-width: 5px;
+    
+}
+#firstHalf{
+    height: 150px;
+    width: 500px;
+    background-color: rgb(184, 181, 181);
+    background-image: url(images/background.jpg);
+    border-width: 5px;
+    border-color: black;
+    
+}
+#secondHalf{
+    height: 50px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    border-width: 5px;
+    border-color: black; 
+
+}
+
+#playLogo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+#pauseLogo{
+    height: 50px;
+    width: 50px;
+}
+#smallBox{
+    height: 50px;
+    width: 50px;
+    margin-left: 220px;
+    margin-top: 10px;
+    position: absolute;
+}
+#progressBar{
+    height: 4px;
+    width: 500px;
+    background-color: lightslategrey;
+    margin-top: 75px;
+    position: absolute;
+}
+#innerBar{
+    height: 4px;
+    width: 0%;
+    background-color: black;
+}
+#duration{
+    width: 500px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    margin-top: 60px;
+}
+#durationFirstHalf{
+    height: 5px;
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+#durationSecondHalf{
+    height: 5px;
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+#end{
+    padding-left: 195px;
+    color : gray;
+}
+#start{color : gray;}
+#bck{
+    width: 500px;
+    height: 150px;
+}
+#info{
+    color : whitesmoke;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 60px;
+}
